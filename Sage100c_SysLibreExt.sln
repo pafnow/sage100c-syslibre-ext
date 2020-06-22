@@ -7,8 +7,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sage100c_SysLibreExt", "Sag
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D9C6519E-773C-4189-BDD4-F7F8A9E365D8}"
 	ProjectSection(SolutionItems) = preProject
+		test\New Text Document.txt = test\New Text Document.txt
 		Sage100c_SysLibreExt.exe = Sage100c_SysLibreExt.exe
 		ZZ1_SysLibreExt.sql = ZZ1_SysLibreExt.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{ED36255A-FB47-4B2B-AF1F-0F18C97631E7}"
+	ProjectSection(SolutionItems) = preProject
+		docs\programme-externe-config.png = docs\programme-externe-config.png
 	EndProjectSection
 EndProject
 Global
@@ -24,6 +30,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ED36255A-FB47-4B2B-AF1F-0F18C97631E7} = {D9C6519E-773C-4189-BDD4-F7F8A9E365D8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {41E00528-E005-4D2A-92C5-2AE05D58F3A9}
